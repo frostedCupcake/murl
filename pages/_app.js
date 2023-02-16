@@ -1,7 +1,13 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
+import { Navbar, Footer } from '../components';
+import '../styles/globals.css';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function App({ Component, pageProps }) {
+  return (
+    <div className="bg-primary-black overflow-hidden">
+      <Navbar />
+      <Component {...pageProps} />
+      <Footer />
+    </div>
+  );
 }
-
-export default MyApp
