@@ -15,7 +15,7 @@ const Collaborators = () => {
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true, amount: 0 }}
+        viewport={{ once: true }}
         className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col my-2`}
       >
         <motion.h1
@@ -26,7 +26,7 @@ const Collaborators = () => {
         </motion.h1>
         <motion.div
           className="grid grid-cols-2 md:grid-cols-3 gap-10 lg:gap-[3.5rem]"
-          variants={fadeIn('up', 'tween', 0.2, 1)}
+          variants={textVariant(1.1)}
         >
           {/* {colaboratorsData.map((item) => (
             <div className="lg:w-[12rem w-40 rounded-md hover:scale-[1.05] transition-all ">
