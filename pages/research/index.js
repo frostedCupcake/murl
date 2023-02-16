@@ -23,8 +23,11 @@ const page = () => {
           RESEARCH
         </motion.h1>
         <motion.div variants={fadeIn('up', 'tween', 0.2, 1)}>
-          {researchData.map((item) => (
-            <div className="flex lg:flex-row flex-col lg:gap-10 gap-5 my-10 md:w-[30rem] w-[20rem] lg:w-[60rem] items-center justify-center lg:items-start mx-auto lg:mb-[1rem] mb-[2rem] ">
+          {researchData.map((item, i) => (
+            <div
+              className="flex lg:flex-row flex-col lg:gap-10 gap-5 my-10 md:w-[30rem] w-[20rem] lg:w-[60rem] items-center justify-center lg:items-start mx-auto lg:mb-[1rem] mb-[2rem] "
+              key={i}
+            >
               <img
                 src={
                   item.img === ''

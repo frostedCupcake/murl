@@ -118,6 +118,7 @@ const Slider = () => {
               <img
                 src={item}
                 className={'overlfow-hidden rounded-sm  h-[15rem]  '}
+                alt={`equipment ${i}`}
               />
             </SwiperSlide>
           ))}

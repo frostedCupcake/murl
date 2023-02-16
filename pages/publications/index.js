@@ -24,11 +24,12 @@ const page = () => {
           PUBLICATIONS
         </motion.h1>
         <motion.div variants={fadeIn('up', 'tween', 0.2, 1)}>
-          {publicationData.map((item) => (
+          {publicationData.map((item, i) => (
             <PublicationCard
               name={item.name}
               disc={item.disc}
               date={item.date}
+              key={i}
             />
           ))}
         </motion.div>
