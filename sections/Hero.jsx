@@ -29,7 +29,7 @@ const Hero = () => (
         </motion.div>
       </div>
 
-      <motion.div
+      {/* <motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}
         className="relative w-full md:-mt-[20px] -mt-[12px] hidden lg:block"
       >
@@ -42,7 +42,7 @@ const Hero = () => (
           alt="hero_cover"
           className="w-full sm:h-[500px] h-[350px] object-cover z-10 rounded-bl-md rounded-br-md  relative"
         />
-      </motion.div>
+      </motion.div> */}
     </motion.div>
   </section>
 );
