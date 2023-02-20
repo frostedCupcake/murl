@@ -23,14 +23,14 @@ const TeamCard = ({
       </h3>
       <h4 className={styles.teamDisc}>
         {currentDesignation[0]}
-        {', '}
-        <span className="font-bold">{currentDesignation[1]}</span>
+        {/* {', '} */}
+        <span className="font-bold block">{currentDesignation[1]}</span>
       </h4>
       {prevDesignation[0] !== '' ? (
         <h4 className={styles.teamDisc}>
           {prevDesignation[0]}
-          {', '}
-          <span className="font-bold">{prevDesignation[1]}</span>
+          {/* {', '} */}
+          <span className="font-bold block">{prevDesignation[1]}</span>
         </h4>
       ) : (
         ''

@@ -96,7 +96,7 @@ const page = () => {
         <motion.div variants={fadeIn('up', 'tween', 0.2, 1)}>
           <motion.h1
             variants={textVariant(1.2)}
-            className="font-thin xl:text-[40px] sm:text-[30px] text-[20px]  uppercase text-white tracking-widest mb-[2rem] text-center"
+            className=" xl:text-[40px] sm:text-[30px] text-[20px]  uppercase text-white tracking-widest mb-[2rem] text-center"
           >
             Alumni
             <span className="font-thin text-xl block">

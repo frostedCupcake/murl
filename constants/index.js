@@ -66,7 +66,7 @@ export const teamData = [
         img: 'https://res.cloudinary.com/dbmw0xoar/image/upload/v1676290548/ecell/MURL/t2_1_rmacjn.jpg',
         name: 'Mr. Vigneshwaran G',
         currentDesignation: [
-          'M.Sc in Medical Genetics',
+          'M.Sc in Biomedical Genetics',
           'University of Madras',
         ],
         prevDesignation: ['B.Sc in Biotechnology', 'VISTAS, Vels University'],
