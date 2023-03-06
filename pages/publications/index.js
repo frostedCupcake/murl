@@ -5,6 +5,7 @@ import React from 'react';
 import { fadeIn, staggerContainer, textVariant } from '../../utils/motion';
 import PublicationCard from '../../components/PublicationCard';
 import { publicationData } from '../../constants';
+import Head from 'next/head';
 
 const page = () => {
   return (

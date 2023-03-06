@@ -4,6 +4,7 @@ import styles from '../../styles';
 import React from 'react';
 import { fadeIn, staggerContainer, textVariant } from '../../utils/motion';
 import { researchData } from '../../constants';
+import Head from 'next/head';
 
 const page = () => {
   return (

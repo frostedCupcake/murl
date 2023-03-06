@@ -5,8 +5,9 @@ import { motion } from 'framer-motion';
 import { fadeIn, staggerContainer, textVariant } from '../../utils/motion';
 import styles from '../../styles';
 import { useState } from 'react';
+import Head from 'next/head';
 
-const index = () => {
+const Contact = () => {
   const initialData = {
     Contact: '',
     name: '',
@@ -157,4 +158,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Contact;
