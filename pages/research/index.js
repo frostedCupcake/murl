@@ -42,6 +42,7 @@ const page = () => {
                   alt={item.name}
                   className=" w-[22rem] rounded-sm shadow-lg"
                 />
+
                 <div className="flex flex-col gap-5 text-center lg:text-left">
                   <h3 className="text-white font-bold text-sm tracking-wide pt-1 md:text-xl ">
                     {item.name}

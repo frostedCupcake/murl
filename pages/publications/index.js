@@ -23,12 +23,12 @@ const page = () => {
           className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col my-2`}
         >
           <motion.h1
-            variants={textVariant(1.1)}
+            variants={textVariant(0.2)}
             className="font-normal xl:text-[80px] sm:text-[40px] text-[30px]  uppercase text-white tracking-wide mb-[2rem]"
           >
             PUBLICATIONS
           </motion.h1>
-          <motion.div variants={fadeIn('up', 'tween', 0.2, 1)}>
+          <motion.div variants={fadeIn('up', 'tween', 0.3, 1)}>
             {publicationData.map((item, i) => (
               <PublicationCard
                 name={item.name}
@@ -36,6 +36,7 @@ const page = () => {
                 date={item.date}
                 key={i}
                 imgUrl={item.imgUrl}
+                link={item.link}
               />
             ))}
           </motion.div>

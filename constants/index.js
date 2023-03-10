@@ -179,78 +179,88 @@ export const publicationData = [
     name: ' Clinical Cancer Research',
     date: '2020 Mar 1',
     imgUrl:
-      'https://res.cloudinary.com/dbmw0xoar/image/upload/v1677760071/ecell/MURL/Screenshot_from_2023-03-02_17-57-30_kl84p8.png',
-    link: '',
+      'https://res.cloudinary.com/dbmw0xoar/image/upload/v1678449593/ecell/MURL/Screenshot_from_2023-03-10_17-29-30_vni5is.png',
+    link: 'https://aacrjournals.org/clincancerres/article/26/5/1152/83120/High-Intensity-Focused-Ultrasound-HIFU-Triggers',
   },
   {
     disc: 'Lau LW, Eranki A, Celik H, Kim A, Kim PC, Sharma KV, Yarmolenko PS. Are Current Technical Exclusion Criteria for Clinical Trials of Magnetic Resonance–Guided High‐Intensity Focused Ultrasound Too Restrictive? Early Experiences at a Pediatric Hospital. ',
     name: 'Journal of Ultrasound in Medicine',
     date: '2020 Mar 30',
-    imgUrl: '',
-    link: '',
+    imgUrl:
+      'https://res.cloudinary.com/dbmw0xoar/image/upload/v1678450560/ecell/MURL/Screenshot_from_2023-03-10_17-45-28_ts6iem.png',
+    link: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/jum.15259',
   },
   {
     disc: 'Spiliopoulos M*, Kuo CY*, Eranki A*, Jacobs M, Rossi CT, Iqbal SN, Fisher JP, Fries MH, Kim PC. Characterizing placental stiffness using ultrasound shear-wave elastography in healthy and preeclamptic pregnancies. ',
     name: 'Archives of Gynecology and Obstetrics',
     date: '2020 Jul 16',
-    imgUrl: '',
-    link: '',
+    imgUrl:
+      'https://res.cloudinary.com/dbmw0xoar/image/upload/v1678450813/ecell/MURL/1244795_bv5ime.jpg',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/32676857/',
   },
   {
     disc: 'Eranki A, Mikhail AS, Negussie AH, Katti PS, Wood BJ, Partanen A. Tissue-mimicking thermochromic phantom for characterization of HIFU devices and applications. International Journal of Hyperthermia. ',
     name: ' International Journal of Hyperthermia',
     date: '2019 Jan 1',
-    imgUrl: '',
-    link: '',
+    imgUrl:
+      'https://res.cloudinary.com/dbmw0xoar/image/upload/v1678450967/ecell/MURL/ihyt20_wmmbue.webp',
+    link: 'https://www.tandfonline.com/doi/full/10.1080/02656736.2019.1605458',
   },
   {
     disc: 'Yarmolenko PS, Eranki A, Partanen A, Celik H, Kim A, Oetgen M, Beskin V, Santos D, Patel J, Kim PC, Sharma K. Technical aspects of osteoid osteoma ablation in children using MR-guided high intensity focussed ultrasound. ',
     name: 'International Journal of Hyperthermia',
     date: '2018 Jan 2',
-    imgUrl: '',
-    link: '',
+    imgUrl:
+      'https://res.cloudinary.com/dbmw0xoar/image/upload/v1678450967/ecell/MURL/ihyt20_wmmbue.webp',
+    link: 'https://www.tandfonline.com/doi/full/10.1080/02656736.2017.1315458',
   },
   {
     disc: "Sharma KV, Yarmolenko PS, Eranki A, Partanen A, Celik H, Kim A, Oetgen M, Kim PC. Magnetic resonance imaging–guided high-intensity focused ultrasound applications in pediatrics: early experience at children's national medical center. ",
     name: 'Topics in Magnetic Resonance Imaging',
     date: '2018 Feb 1',
-    imgUrl: '',
-    link: '',
+    imgUrl:
+      'https://res.cloudinary.com/dbmw0xoar/image/upload/v1678451388/ecell/MURL/download_ncosvq.jpg',
+    link: 'https://journals.lww.com/topicsinmri/FullText/2018/02000/Magnetic_Resonance_Imaging_guided_High_intensity.10.aspx',
   },
   {
     disc: 'ranki A, Farr N, Partanen A, Sharma KV, Rossi CT, Rosenberg AZ, Kim A, Oetgen M, Celik H, Woods D, Yarmolenko PS. Mechanical fractionation of tissues using microsecond-long HIFU pulses on a clinical MR-HIFU system. ',
     name: 'International Journal of Hyperthermia',
     date: '2018 Nov 17',
-    imgUrl: '',
-    link: '',
+    imgUrl:
+      'https://res.cloudinary.com/dbmw0xoar/image/upload/v1678450967/ecell/MURL/ihyt20_wmmbue.webp',
+    link: 'https://www.tandfonline.com/doi/full/10.1080/02656736.2018.1438672/',
   },
   {
     disc: 'Sharma KV, Yarmolenko PS, Celik H, Eranki A, Partanen A, Smitthimedhin A, Kim A, Oetgen M, Santos D, Patel J, Kim P. Comparison of noninvasive high-intensity focused ultrasound with radiofrequency ablation of osteoid osteoma. ',
     name: 'The Journal of pediatrics',
     date: '2017 Nov 1',
-    imgUrl: '',
-    link: '',
+    imgUrl:
+      'https://res.cloudinary.com/dbmw0xoar/image/upload/v1678451489/ecell/MURL/download_s7mmrm.png',
+    link: 'https://www.sciencedirect.com/science/article/abs/pii/S002234761730896X',
   },
   {
     disc: 'Eranki A, Farr N, Partanen A, V. Sharma K, Chen H, Rossi CT, Kothapalli SV, Oetgen M, Kim A, H. Negussie A, Woods D. Boiling histotripsy lesion characterization on a clinical magnetic resonance imaging-guided high intensity focused ultrasound system.',
     name: 'PloS one',
     date: '2017 Mar 16',
-    imgUrl: '',
-    link: '',
+    imgUrl:
+      'https://res.cloudinary.com/dbmw0xoar/image/upload/v1678451544/ecell/MURL/plos-one_hmdnc7.png',
+    link: 'https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0173867',
   },
   {
     disc: 'Kuo CY, Eranki A, Placone JK, Rhodes KR, Aranda-Espinoza H, Fernandes R, Fisher JP, Kim PC. Development of a 3D printed, bioengineered placenta model to evaluate the role of trophoblast migration in preeclampsia. ',
     name: 'ACS Biomaterials Science & Engineering',
     date: '2016 Oct 10',
-    imgUrl: '',
-    link: '',
+    imgUrl:
+      'https://res.cloudinary.com/dbmw0xoar/image/upload/v1678452382/ecell/MURL/Screenshot_from_2023-03-10_18-16-04_ay7hbx.png',
+    link: 'https://pubs.acs.org/doi/abs/10.1021/acsbiomaterials.6b00031',
   },
   {
-    disc: 'ranki A, Cortes N, Ferenček ZG, Sikdar S. A novel application of musculoskeletal ultrasound imaging. ',
+    disc: 'Eranki A, Cortes N, Ferenček ZG, Sikdar S. A novel application of musculoskeletal ultrasound imaging. ',
     name: 'JoVE (Journal of Visualized Experiments) ',
     date: '2013 Sep 17',
-    imgUrl: '',
-    link: '',
+    imgUrl:
+      'https://res.cloudinary.com/dbmw0xoar/image/upload/v1678451925/ecell/MURL/unnamed_exr2ci.jpg',
+    link: 'https://www.jove.com/t/50595/a-novel-application-of-musculoskeletal-ultrasound-imaging',
   },
 ];
 
